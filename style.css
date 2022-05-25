@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'xilosa';
+    src: url(fonts/xilosa_.ttf)format('opentype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+:root{
+    --font-destaque: 'Bebas Neue', cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(imagens/va-cordel-encantado-capa-oficial-do-c381lbum-cover-brasil.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+header {
+    background-color: rgba(175, 146, 49, 0.959);
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+section {
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+section > p {
+    padding: 10px;
+    font-family: var(--font-destaque);
+    font-size: 1.1em;
+    
+    
+}
+ h1{
+    font-family: 'xilosa';
+    color: white;
+    font-size: 7vw;  
+    text-shadow: 2px 1px 0px black; 
+}
+header > p {
+    color: white;
+    font-family: 'xilosa';
+    font-size: 1.5em;
+    text-shadow: 0.5px 1px 0px black;
+}
+
+
+
+footer {
+    background-color: rgba(175, 146, 49, 0.959);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+
+ a {
+     color: white;
+     text-decoration: none;
+ }
+ a:hover{
+     text-decoration: underline;
+}
+ 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em
+}
+
+section.fotoa> p {
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+
+}
+section.fotob > p {
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+section.normal{
+    background-color: white;
+}
+section.fotoa {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+
+}
+section.fotob {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+}
